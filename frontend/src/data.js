@@ -1,0 +1,75 @@
+const data =
+{
+    products: [
+        {
+            _id: '1',
+            name: 'Nike Slim Shirt',
+            category: 'Shirts',
+            image: '/images/p-1.jpg',
+            price: 120,
+            brand: 'Nike',
+            rating: 4.5,
+            numReviews:10,
+            description:'high quality produt',
+
+        },
+        {
+            _id:'2',
+            name:'Adidas fit Shirt',
+            category:'Shirts',
+            image:'/images/p-2.jpg',
+            price:100,
+            brand:'Nike',
+            rating:5,
+            numReviews:10,
+            description:'high quality produt',
+
+        },
+        {
+            _id:'3',
+            name:'lacoste free Shirt',
+            category:'Shirts',
+            image:'/images/p-3.jpg',
+            price:220,
+            brand:'Nike',
+            rating:1.5,
+            numReviews:10,
+            description:'high quality produt',
+        },
+        {
+            _id:'4',
+            name:'Nike Slim Pant',
+            category:'Pants',
+            image:'/images/p-4.jpg',
+            price:78,
+            brand:'Nike',
+            rating:4.5,
+            numReviews:14,
+            description:'high quality produt',
+        },
+        {
+            _id:'5',
+            name:'puma slim Pants',
+            category:'Pants',
+            image:'/images/p-5.jpg',
+            price:65,
+            brand:'Puma',
+            rating:4.5,
+            numReviews:10,
+            description:'high quality produt',
+        },
+        {
+            _id:'6',
+            name:'Adidas fit pants',
+            category:'Pants',
+            image:'/images/p-6.jpg',
+            price:139,
+            brand:'Adidas',
+            rating:4.5,
+            numReviews:15,
+            description:'high quality produt',
+        },
+    ],
+};
+
+export default data;
